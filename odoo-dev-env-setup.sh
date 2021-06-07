@@ -8,8 +8,8 @@ cd ~
 echo ========== update apt directory - get latest packages
 sudo apt update -y && sudo apt upgrade -y
 echo ========== install required packages
-sudo apt install git python3 python3-pip build-essential wget gdebi curl chromium-browser -y
-sudo apt install python3-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libtiff5-dev libjpeg8-dev libopenjp2-7-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev libxcb1-dev libpq-dev python-pypdf2 -y
+sudo apt install git python3 python3-pip python3-pypdf2 build-essential wget gdebi curl chromium-browser -y
+sudo apt install python3-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libtiff5-dev libjpeg8-dev libopenjp2-7-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev libxcb1-dev libpq-dev -y
 echo ========== install node npm  + rtlcss convert css files
 sudo apt install nodejs npm -y
 sudo apt install node-less -y
